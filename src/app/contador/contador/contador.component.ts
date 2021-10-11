@@ -4,9 +4,9 @@ import { Component } from "@angular/core";
     selector:'app-contador',
     template:`
         <h1>{{titulo}}</h1>
-        <h3>La base es: <strong>{{base}}</strong></h3>
+        <h3>La base es: <strong> {{base}} </strong></h3>
 
-        <button (click)="acumular(base)">+ {{base}}</button>
+        <button (click)="acumular(base)"> + {{base}} </button>
 
         <span>{{numero}}</span>
 
